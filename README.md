@@ -2,7 +2,9 @@
 
 A CPU-friendly workflow for labeled text classification. It prepares data, creates deterministic stratified train, validation, and test splits, trains a TF-IDF and Logistic Regression baseline, evaluates results, supports error analysis, and exports experiment records and a model card.
 
-**This project trains a small task-specific classifier.** Optional pretrained-model fine-tuning is documented in [`docs/colab.md`](docs/colab.md). It does not train a foundation model from scratch. No paid APIs, GPU, or API keys are needed.
+**Live app:** https://model-training-lab.streamlit.app/
+
+**This project trains a small task-specific classifier.** Optional pretrained-model fine-tuning is documented in [docs/colab.md](docs/colab.md). It does not train a foundation model from scratch. No paid APIs, GPU, or API keys are needed.
 
 ## Feature status
 
@@ -70,10 +72,9 @@ Only report measured results from a real run and data you can describe appropria
 ```text
 app.py                  Streamlit application
 src/lab.py              Workflow functions
-dataset.csv        Bundled sentiment sample
+dataset.csv             Bundled sentiment sample
 tests/test_lab.py       Core workflow tests
 docs/colab.md           Optional cloud fine-tuning guide
 artifacts/              Locally saved model and run metadata
 requirements.txt        Core dependencies
 ```
-
