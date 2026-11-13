@@ -1,6 +1,6 @@
-# Project 13 · Model training lab
+# Model Training Lab
 
-An end-to-end CPU-friendly portfolio project for labeled text classification. Prepare data, create deterministic stratified train/validation/test splits, train a TF-IDF + Logistic Regression baseline, evaluate it, inspect mistakes, and export an experiment record and model card.
+A CPU-friendly workflow for labeled text classification. It prepares data, creates deterministic stratified train, validation, and test splits, trains a TF-IDF and Logistic Regression baseline, evaluates results, supports error analysis, and exports experiment records and a model card.
 
 **This project trains a small task-specific classifier.** Optional pretrained-model fine-tuning is documented in [`docs/colab.md`](docs/colab.md). It does not train a foundation model from scratch. No paid APIs, GPU, or API keys are needed.
 
@@ -12,7 +12,7 @@ An end-to-end CPU-friendly portfolio project for labeled text classification. Pr
 | Optional | Hugging Face transformer fine-tuning in a Colab/cloud notebook (internet and downloaded weights required) |
 | Future | Local transformer runner, experiment registry, richer benchmark datasets, drift monitoring, deployment endpoint |
 
-Demo metrics and latency are deterministic UI illustrations, not trained-model results. After installing dependencies, the real training button becomes available. The hand-written sample is educational and cannot establish real-world quality.
+Demo metrics and latency are deterministic UI illustrations, not trained-model results. After installing dependencies, the real training button becomes available. The illustrative sample is for demonstration and does not establish real-world model quality.
 
 ## Windows 11 setup (PowerShell)
 
